@@ -1,0 +1,240 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+
+*{margin: 0px;}
+
+a{text-decoration: none;}
+
+/* Header Wrap Section */
+.wrapper{
+ width: 100%;
+ padding: 20px 0px;   
+ background-color: #333333;
+}
+
+
+/* Header Section style*/
+header{
+ width: 80%;
+ margin: auto;
+ overflow: hidden;
+
+}
+
+.headerTitle{
+    float: left;
+}
+
+.headerTitle h3{
+  color: #C0BAB6;  
+}
+
+.headerSearch{
+    float: right;
+}
+
+.headerSearch input{
+  padding: 3px 3px;  
+  border: 1px outset #C0BAB6;
+  background-color: #232323;
+}
+
+.headerSearch button{
+  padding: 4px; 
+  background-color: #FF9900; 
+  color:#FFFFFF;
+  border: none;
+  cursor: pointer;
+}
+
+/* Nav Section Style*/
+
+.nav{
+width: 100%;
+ background-color: red;
+ margin: auto;
+}
+
+nav .menu{
+ width:80%;
+ margin: auto;  
+ padding: 20px 0px; 
+ background-color: #232323;
+ margin-top: 20px;
+}
+
+nav .menu a{
+ color:#C0BAB6;
+ padding: 20px 10px;  
+}
+
+nav .menu a:hover{
+ color:#FF9900;   
+}
+
+/* Section Section Style */
+
+.SectionWrap{
+ width: 100%;
+ background-color: #FFFFFF;   
+}
+
+.SectionBanner{
+  width: 80%;
+  margin: auto;
+  padding:30px;  
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+
+/* titleBanner Section Style */
+
+.titleBanner{
+  background-color: #464646;  
+  height: 300px;
+  
+}
+
+.titleBanner h3{
+    font-family: 'Lobster Two', cursive;
+    color:#C0BAB6;
+    font-size: 3em;
+    padding: 10px;
+}
+
+.titleBanner p{
+font-size: 20px;
+line-height: 1.5em;
+color:#C0BAB6;
+padding: 10px;
+}
+
+.titleBanner a{
+  float: right;  
+  margin-right: 30px;
+  margin-top: 17px;
+  color: #FF9900;
+}
+
+/* Title Image Section */
+
+.titleImage{
+ flex-grow: 1;   
+}
+
+.contentSection{
+ width: 80%;
+ margin: auto;   
+ margin-top: 20px;
+ display: flex;
+ justify-content: center;
+}
+
+
+.content1{
+  flex-grow: 1;  
+  color:#C0BAB6;
+}
+
+.content2{
+  flex-grow: 3; 
+  display: flex;
+  justify-content: center; 
+}
+
+.content2 img{
+ margin: 10px;  
+ border: 2px dashed #312f2f; 
+}
+
+
+/* horizontal */
+
+.horizontal{
+ width: 80%;
+ margin: auto; 
+background-color: #888685; 
+margin-top: 50px;
+}
+
+
+/* about Section style */
+
+.aboutSection{
+ width: 80%;
+ margin: auto;
+ margin-top: 60px;
+ display: flex;
+  flex-direction: row;
+  
+}
+
+
+.aboutSection h3{
+    color: #98ADB6;
+}
+
+/* BLOG Section */
+
+.blog{
+ flex: 1;   
+}
+
+/* QUICK LINKS */
+
+.liks{
+    flex: 1;   
+}
+
+.liks p{
+  margin-bottom: 15px;  
+}
+
+/* ABOUT US */
+
+.aboutUs{
+    flex: 2;   
+}
+
+
+.aboutContent{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;  
+}
+
+.aboutContent img{
+    margin: 5px;
+}
+
+
+/* Footer Section Style */
+
+footer{
+width: 100%;
+padding: 30px 0px;  
+background-color: #232323;  
+}
+
+.footerWrap{
+width: 80%;
+margin: auto;
+}
+
+.footerContent1{
+  float: left;  
+}
+
+.footerContent1 p{
+ color: #C0BAB1;   
+}
+
+.footerContent2{
+  float: right;  
+}
+
+.footerContent2 p{
+  color: #C0BAB1;   
+}
